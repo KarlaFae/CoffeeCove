@@ -5,7 +5,7 @@
   </head>
   
   <body> 
- <img src= "https://github.com/KarlaFae/CoffeeCove/blob/main/CoffeeCoveLogo.png?raw=true" width = "200">
+ <img src= "https://github.com/KarlaFae/CoffeeCove/blob/main/CoffeeCoveLogo.png?raw=true" width = "250">
  
  <h1> Welcome to CoffeeCove! </h1>
  
