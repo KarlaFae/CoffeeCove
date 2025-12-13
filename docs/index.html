@@ -60,7 +60,12 @@
         height: 45px;
         margin: 10px;
       }
-
+      #recsHeading{
+        text-align: center;
+        padding: 10px;
+        border: 5px solid gray;
+        margin: auto;
+      }
       #recs {
       
       float:right;
@@ -73,11 +78,11 @@
       
       }
 
-      #recsHeading{
-        text-align: center;
-        padding: 10px;
-        border: 5px solid gray;
-        margin: auto;
+      #pageManger{
+        
+      }
+      #content{
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q8QlNuTUe4M?si=sWaqM4p7FVTkIx0W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       }
       
       
@@ -105,11 +110,11 @@
  <h4 id= "tagline"> Made by Creators, for Creators. </h4>
 
     <h4 id= "searchbar" > Search:  <!-- search function goes here --> </h4>
-    <h4 id= "guideHeader" > <div style= "float:left"> <a href=""> Videos </a> | <a href=""> Fandoms </a> | <a href=""> Creators </a> | <a href=""> Community </a> | <a href=""> Upload </a> </div> <div style="float:right"> <a href=""> Signup/Login </a> | <a href=""> My Page </a> | <a href=""> History </a> | <a href=""> Playlists </a>| <a href=""> Help </a> </div> </h4>
+    <h4 id= "guideHeader" > <div style= "float:left"> <a href=""> Videos </a> | <a href=""> Fandoms </a> | <a href=""> Creators </a> | <a href=""> Community </a> | <a href=""> Upload </a> </div> <div style="float:right"> <a href=""> Signup/Login </a> | <a href=""> My Page </a> | <a href=""> History </a> | <a href=""> Playlists </a> | <a href=""> Help </a> </div> </h4>
    <div id="mainPage">
      <div id ="recs">
      <h4 id = "recsHeading"> Recommended Videos </h4>
-     <p id="recsList"> <!-- Videos go here. --> </p>
+     <p id="recsList"> <div id = "pageManager"> <!-- Videos go here. --> <div id ="content"> <!--video content goes here--> </div> </div> </p>
      </div>
      <p id="guide">
         
