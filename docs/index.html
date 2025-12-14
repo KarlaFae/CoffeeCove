@@ -98,16 +98,21 @@
       border: 5px solid gray;
       margin: auto;
 
-      
       }
-      #recsList{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+      #recslist_box{
         float:center;
         margin:auto;
         background-color: rgb(69, 40, 41);
         overflow:auto;
         height:90%;
+      }
+      .recsList_grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        float:center;
+        margin:auto;
+        overflow:auto;
+        height:85%;
       }
 
 
@@ -161,11 +166,11 @@
     </p>
     <div id ="recs">
     <h4 id = "recsHeading"> Recommended Videos </h4>
-    <div class = "recsList">
+    <div id = "recsList_box" class = "recsList_grid">
     <div id="content"> <p> Content <!--video content goes here--> </p> </div> 
 
       
-      <h4 id ="navigation"> <p> <-- --> </p> </h4>
+    <h4 id ="navigation"> <p> <-- --> </p> </h4>
     </div>
     </div>
    
