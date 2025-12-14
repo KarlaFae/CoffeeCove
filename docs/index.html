@@ -101,6 +101,8 @@
       
       }
       #recsList{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         float:center;
         margin:auto;
         background-color: rgb(69, 40, 41);
@@ -109,9 +111,8 @@
       }
 
 
-      .content {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
+      #content {
+     
         gap: 10px;
         width:30%;
         height:30%;
@@ -160,17 +161,9 @@
     </p>
     <div id ="recs">
     <h4 id = "recsHeading"> Recommended Videos </h4>
-    <div id="recsList"> 
-      <div class= "content"> Content <!--video content goes here--> </div> 
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
-      <div class= "content"> Content. <!--video content goes here--> </div>
+    <div class = "recsList">
+    <div id="content"> <p> Content <!--video content goes here--> </p> </div> 
+
       
       <h4 id ="navigation"> <p> <-- --> </p> </h4>
     </div>
